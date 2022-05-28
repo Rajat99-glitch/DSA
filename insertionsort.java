@@ -22,6 +22,18 @@ public class MyClass {
         }
     }
     
+    public static boolean isSmaller(int arr, int i, int j)
+    {
+        if(arr[i] < arr[j])
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+    
     public static void selectionSort(int arr[])
     {
         int n = arr.length;
